@@ -1,0 +1,31 @@
+{
+  "name": "local-cookie",
+  "version": "1.0.0",
+  "description": "A local cookie Management library",
+  "main": "./dist/local-cookie.min.js",
+  "module": "./dist/local-cookie.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c ./build/rollup.config.js && npm run size",
+    "size": "gzip-size ./dist/local-cookie.min.js"
+  },
+  "keywords": [
+    "cookie",
+    "session",
+    "local-cookie"
+  ],
+  "author": "wanggm",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "gzip-size-cli": "^2.1.0",
+    "rollup": "^0.57.1",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup-plugin-uglify": "^3.0.0",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {}
+}
