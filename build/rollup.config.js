@@ -5,8 +5,8 @@ import uglify from 'rollup-plugin-uglify';
 export default {
   input: './src/index.js',
   output: {
-    name: 'local-cookie',
-    file: './dist/local-cookie.min.js',
+    name: 'locally-cookie',
+    file: './dist/locally-cookie.min.js',
     format: 'umd',
   },
   plugins: [

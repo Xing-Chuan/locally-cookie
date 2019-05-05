@@ -1,7 +1,7 @@
 
 English | [简体中文](./README.zh-CN.md)
 
-> Local-cookie is a 1KB lightweight library based on localStorage that stores session data and fixed time-length data locally
+> locally-cookie is a 1KB lightweight library based on localStorage that stores session data and fixed time-length data locally
 
 ## Getting Started
 
@@ -12,7 +12,7 @@ English | [简体中文](./README.zh-CN.md)
 ### Installation
 
 ```bash
-npm i -S local-cookie
+npm i -S locally-cookie
 ```
 
 ### API

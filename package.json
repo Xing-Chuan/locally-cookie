@@ -1,18 +1,18 @@
 {
-  "name": "local-cookie",
-  "version": "1.0.0",
+  "name": "locally-cookie",
+  "version": "0.0.1",
   "description": "A local cookie Management library",
-  "main": "./dist/local-cookie.min.js",
-  "module": "./dist/local-cookie.min.js",
+  "main": "./dist/locally-cookie.min.js",
+  "module": "./dist/locally-cookie.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c ./build/rollup.config.js && npm run size",
-    "size": "gzip-size ./dist/local-cookie.min.js"
+    "size": "gzip-size ./dist/locally-cookie.min.js"
   },
   "keywords": [
     "cookie",
     "session",
-    "local-cookie"
+    "locally-cookie"
   ],
   "author": "wanggm",
   "license": "MIT",

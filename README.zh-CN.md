@@ -1,7 +1,7 @@
 
 [English](./README.md) | 简体中文
 
-> local-cookie 是一个 1KB 轻量库，基于 localStorage 实现本地 session 数据及时效数据存储
+> locally-cookie 是一个 1KB 轻量库，基于 localStorage 实现本地 session 数据及时效数据存储
 
 ## 快速开始
 
@@ -12,7 +12,7 @@
 ### 安装
 
 ```bash
-npm i -S local-cookie
+npm i -S locally-cookie
 ```
 
 ### API
