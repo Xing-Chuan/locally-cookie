@@ -17,6 +17,10 @@ npm i -S locally-cookie
 
 ### API
 
+```js
+import locallyCookie from 'locally-cookie';
+```
+
 **set**
 
 ```js
@@ -27,7 +31,7 @@ npm i -S locally-cookie
  * day {Number} 0 session data, Turn off browser invalidation
  | 1，2... Expired after 1, 2 days | -1 Theory is permanent and effective, optional, default 0
 */
-localCookie.set('key', value, [day]);
+locallyCookie.set('key', value, [day]);
 ```
 
 **get**
@@ -37,7 +41,7 @@ localCookie.set('key', value, [day]);
  * Parameter
  * key {String} required
 */
-localCookie.get('key');
+locallyCookie.get('key');
 ```
 
 **delete**
@@ -47,7 +51,7 @@ localCookie.get('key');
  * Parameter
  * key {String} required
 */
-localCookie.del('key');
+locallyCookie.del('key');
 ```
 
 **has**
@@ -57,5 +61,5 @@ localCookie.del('key');
  * Parameter
  * key {String} required
 */
-localCookie.has('key');
+locallyCookie.has('key');
 ```

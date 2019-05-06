@@ -17,6 +17,10 @@ npm i -S locally-cookie
 
 ### API
 
+```js
+import locallyCookie from 'locally-cookie';
+```
+
 **设置 set**
 
 ```js
@@ -26,7 +30,7 @@ npm i -S locally-cookie
  * value {String|Boolean|Number|Array|Object} 值，必填
  * day {Number} 0 session 数据，关闭浏览器失效 | 1，2... 1天，2天后失效 | -1 理论永久有效，选填 默认为 0
 */
-localCookie.set('key', value, [day]);
+locallyCookie.set('key', value, [day]);
 ```
 
 **获取 get**
@@ -36,7 +40,7 @@ localCookie.set('key', value, [day]);
  * 参数说明
  * key {String} 键，必填
 */
-localCookie.get('key');
+locallyCookie.get('key');
 ```
 
 **删除 del**
@@ -46,7 +50,7 @@ localCookie.get('key');
  * 参数说明
  * key {String} 键，必填
 */
-localCookie.del('key');
+locallyCookie.del('key');
 ```
 
 **设置的某个key是否还存在 has**
@@ -56,5 +60,5 @@ localCookie.del('key');
  * 参数说明
  * key {String} 键，必填
 */
-localCookie.has('key');
+locallyCookie.has('key');
 ```
