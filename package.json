@@ -1,6 +1,6 @@
 {
   "name": "locally-cookie",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A local cookie Management library",
   "main": "./dist/locally-cookie.min.js",
   "module": "./dist/locally-cookie.min.js",
@@ -16,6 +16,10 @@
   ],
   "author": "wanggm",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xing-Chuan/locally-cookie.git"
+  },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-plugin-transform-class-properties": "^6.24.1",

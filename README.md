@@ -1,5 +1,5 @@
 
-English | [简体中文](./README.zh-CN.md)
+English | [简体中文](https://github.com/Xing-Chuan/locally-cookie/blob/master/README.zh-CN.md)
 
 > locally-cookie is a 1KB lightweight library based on localStorage that stores session data and fixed time-length data locally
 
